@@ -1,0 +1,123 @@
+﻿[2017.05.19-22.41.31:160][  0]Log file open, 05/19/17 16:41:31
+[2017.05.19-22.41.31:160][  0]LogInit:Display: Running engine for game: CompSciApp
+[2017.05.19-22.41.31:160][  0]LogInit:Display: RandInit(-824950998) SRandInit(-824950998).
+[2017.05.19-22.41.31:160][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2017.05.19-22.41.31:160][  0]LogStats: Stats thread started at 0.085946
+[2017.05.19-22.41.31:160][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2017.05.19-22.41.31:160][  0]LogInit: API Version: 2672455
+[2017.05.19-22.41.31:160][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2017.05.19-22.41.31:160][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2017.05.19-22.41.31:160][  0]LogInit: Build Configuration: Development
+[2017.05.19-22.41.31:160][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2017.05.19-22.41.31:160][  0]LogInit: Command line: -EpicPortal 
+[2017.05.19-22.41.31:160][  0]LogInit: Base directory: C:/Program Files/Epic Games/UE_4.9/Engine/Binaries/Win64/
+[2017.05.19-22.41.31:160][  0]LogInit: Rocket: 1
+[2017.05.19-22.41.31:175][  0]LogInit: Using libcurl 7.41.0
+[2017.05.19-22.41.31:175][  0]LogInit:  - built for x86_64-pc-win32
+[2017.05.19-22.41.31:175][  0]LogInit:  - supports SSL with WinSSL
+[2017.05.19-22.41.31:175][  0]LogInit:  - other features:
+[2017.05.19-22.41.31:175][  0]LogInit:      CURL_VERSION_SSL
+[2017.05.19-22.41.31:175][  0]LogInit:      CURL_VERSION_IPV6
+[2017.05.19-22.41.31:175][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2017.05.19-22.41.31:175][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2017.05.19-22.41.31:175][  0]LogInit:      CURL_VERSION_IDN
+[2017.05.19-22.41.31:175][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2017.05.19-22.41.31:175][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2017.05.19-22.41.31:175][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2017.05.19-22.41.31:175][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2017.05.19-22.41.31:175][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2017.05.19-22.41.31:188][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2017.05.19-22.41.31:203][  0]LogInit: Object subsystem initialized
+[2017.05.19-22.41.31:219][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.19-22.41.31:219][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.05.19-22.41.31:230][  0]LogInit: Computer: LAPTOP-CAFDGQ8I
+[2017.05.19-22.41.31:230][  0]LogInit: User: ericn
+[2017.05.19-22.41.31:230][  0]LogInit: CPU Page size=4096, Cores=2
+[2017.05.19-22.41.31:230][  0]LogInit: High frequency timer resolution =2.531250 MHz
+[2017.05.19-22.41.31:231][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.05.19-22.41.31:231][  0]LogMemory: Platform Memory Stats for Windows
+[2017.05.19-22.41.31:231][  0]LogMemory: Process Physical Memory: 54.46 MB used, 54.46 MB peak
+[2017.05.19-22.41.31:231][  0]LogMemory: Process Virtual Memory: 55.30 MB used, 55.30 MB peak
+[2017.05.19-22.41.31:231][  0]LogMemory: Physical Memory: 4611.33 MB used, 8056.07 MB total
+[2017.05.19-22.41.31:231][  0]LogMemory: Virtual Memory: 371.34 MB used, 134217728.00 MB total
+[2017.05.19-22.41.31:310][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.05.19-22.41.33:183][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 960M (Feature Level 11_0)
+[2017.05.19-22.41.33:183][  0]LogD3D11RHI: Adapter has 2018MB of dedicated video memory, 0MB of dedicated system memory, and 4028MB of shared system memory, 1 output[s]
+[2017.05.19-22.41.33:193][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 520 (Feature Level 11_0)
+[2017.05.19-22.41.33:193][  0]LogD3D11RHI: Adapter has 128MB of dedicated video memory, 0MB of dedicated system memory, and 4028MB of shared system memory, 0 output[s]
+[2017.05.19-22.41.33:195][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2017.05.19-22.41.33:195][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4028MB of shared system memory, 0 output[s]
+[2017.05.19-22.41.33:195][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2017.05.19-22.41.33:205][  0]LogD3D11RHI: !Direct3DDevice
+[2017.05.19-22.41.33:205][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.05.19-22.41.33:267][  0]LogD3D11RHI: Async texture creation enabled
+[2017.05.19-22.41.33:286][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Users/ericn/OneDrive/Documents/GitHub/CompSciApp/CompSciApp/Intermediate/Shaders/WorkingDirectory/9012/).
+[2017.05.19-22.41.33:286][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/ericn/OneDrive/Documents/GitHub/CompSciApp/CompSciApp/Intermediate/Shaders/tmp/79F712B4483A270AE340A6A784BB3630/'.
+[2017.05.19-22.41.33:286][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.05.19-22.41.35:149][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.05.19-22.41.35:158][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.05.19-22.41.35:168][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.05.19-22.41.35:193][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.05.19-22.41.35:206][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.05.19-22.41.35:212][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.05.19-22.41.35:217][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.05.19-22.41.35:224][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.05.19-22.41.35:231][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.05.19-22.41.35:239][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.05.19-22.41.35:245][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.05.19-22.41.35:253][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.05.19-22.41.35:254][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.05.19-22.41.35:276][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.05.19-22.41.35:286][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.05.19-22.41.35:299][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.05.19-22.41.35:306][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.05.19-22.41.35:306][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.05.19-22.41.35:468][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.05.19-22.41.35:563][  0]LogDerivedDataCache: Loaded boot cache 0.10s 44MB C:/Users/ericn/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2017.05.19-22.41.35:563][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/ericn/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2017.05.19-22.41.35:564][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/ericn/OneDrive/Documents/GitHub/CompSciApp/CompSciApp/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.05.19-22.41.35:564][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.05.19-22.41.35:564][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/ericn/OneDrive/Documents/GitHub/CompSciApp/CompSciApp/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.05.19-22.41.35:564][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.05.19-22.41.35:788][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.05.19-22.41.35:801][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ericn/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.05.19-22.41.36:323][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.19-22.41.36:333][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2017.05.19-22.41.36:818][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2017.05.19-22.41.36:818][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.05.19-22.41.37:708][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.05.19-22.41.40:063][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.05.19-22.41.40:277][  0]LogAssetRegistry: FAssetRegistry took 0.0119 seconds to start up
+[2017.05.19-22.41.40:618][  0]SourceControl: Info Source control is disabled
+[2017.05.19-22.41.40:619][  0]SourceControl: Info Source control is disabled
+[2017.05.19-22.41.40:657][  0]SourceControl: Info Source control is disabled
+[2017.05.19-22.41.40:680][  0]SourceControl: Info Source control is disabled
+[2017.05.19-22.41.40:949][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.05.19-22.41.41:094][  0]LogObj: 28487 objects as part of root set at end of initial load.
+[2017.05.19-22.41.41:094][  0]LogUObjectAllocator: 6088824 out of 0 bytes used by permanent object pool.
+[2017.05.19-22.41.41:204][  0]LogEngine: Initializing Engine...
+[2017.05.19-22.41.41:211][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2017.05.19-22.41.41:212][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2017.05.19-22.41.41:484][  0]LogAIModule: Creating AISystem for world NewWorld
+[2017.05.19-22.41.41:497][  0]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.19-22.41.41:593][  0]LogInit: FAudioDevice initialized.
+[2017.05.19-22.41.41:653][  0]LogDerivedDataCache: Saved boot cache 0.06s 44MB C:/Users/ericn/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2017.05.19-22.41.41:665][  0]LogInit: Texture streaming: Enabled
+[2017.05.19-22.41.41:707][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2017.05.19-22.41.41:707][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2017.05.19-22.41.41:707][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId cd6bfa6044883b0d06de64be863c488d|81db3aebfd8c43b0b13c2e2363feaee1|eb334693-2a2a-4861-9755-6aac685e70fb
+[2017.05.19-22.41.41:708][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2017.05.19-22.41.41:820][  0]LogInit: Transaction tracking system initialized
+[2017.05.19-22.41.42:070][  0]BlueprintLog: New page: Editor Load
+[2017.05.19-22.41.42:247][  0]LogInit:Warning: CVar named 'r.MobileHDR' marked up in RendererSettings was not found or is set to read-only
+[2017.05.19-22.41.46:798][  0]LocalizationService: Info Localization service is disabled
+[2017.05.19-22.41.47:052][  0]LogConsoleResponse:Display: 
+[2017.05.19-22.41.47:255][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2017.05.19-22.41.47:332][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ericn/OneDrive/Documents/GitHub/CompSciApp/CompSciApp/Content/' took 0.01s
+[2017.05.19-22.41.47:332][  0]SourceControl: Info Source control is disabled
+[2017.05.19-22.41.47:332][  0]Cmd: MAP LOAD FILE="../../../../../../Users/ericn/OneDrive/Documents/GitHub/CompSciApp/CompSciApp/Content/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.19-22.41.47:337][  0]LightingResults: New page: Lighting Build
+[2017.05.19-22.41.47:341][  0]MapCheck: New page: Map Check
+[2017.05.19-22.41.47:341][  0]LightingResults: New page: Lighting Build
+[2017.05.19-22.41.47:360][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001ACE5D35DA0
+[2017.05.19

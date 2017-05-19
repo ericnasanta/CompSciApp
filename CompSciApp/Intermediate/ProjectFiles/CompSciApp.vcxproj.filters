@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\CompSciApp.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{60A292FE-15A6-4D4C-930A-26C328CC946F}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\CompSciApp.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\CompSciAppEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{17424B8C-921F-4FFC-AE18-46D8E73F39CD}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\CompSciApp">
+			<UniqueIdentifier>{FD2324F5-D162-413E-846E-9EA18C4A0D6A}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\CompSciApp\CompSciApp.Build.cs">
+			<Filter>Source\CompSciApp</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\CompSciApp\CompSciApp.cpp">
+			<Filter>Source\CompSciApp</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\CompSciApp\CompSciApp.h">
+			<Filter>Source\CompSciApp</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\CompSciApp\CompSciAppCharacter.cpp">
+			<Filter>Source\CompSciApp</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\CompSciApp\CompSciAppCharacter.h">
+			<Filter>Source\CompSciApp</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\CompSciApp\CompSciAppGameMode.cpp">
+			<Filter>Source\CompSciApp</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\CompSciApp\CompSciAppGameMode.h">
+			<Filter>Source\CompSciApp</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
