@@ -19,16 +19,16 @@ ACompSciAppCharacter::ACompSciAppCharacter()
 		ConstructorHelpers::FObjectFinderOptional<UPaperFlipbook> RunningAnimationAsset;
 		ConstructorHelpers::FObjectFinderOptional<UPaperFlipbook> IdleAnimationAsset;
 		FConstructorStatics()
-			: RunningAnimationAsset(TEXT("/Game/2dSideScroller/Sprites/RunningAnimation.RunningAnimation"))
-			, IdleAnimationAsset(TEXT("/Game/2dSideScroller/Sprites/IdleAnimation.IdleAnimation"))
+			: RunningAnimationAsset(TEXT("/Game/2dSideScroller/Sprites/Astronaut_Walk2.Astronaut_Walk2"))
+			, IdleAnimationAsset(TEXT("/Game/2dSideScroller/Sprites/Astronaut_idle2.Astronaut_idle2"))
 		{
 		}
 	};
 	static FConstructorStatics ConstructorStatics;
 
-	RunningAnimation = ConstructorStatics.RunningAnimationAsset.Get();
-	IdleAnimation = ConstructorStatics.IdleAnimationAsset.Get();
-	GetSprite()->SetFlipbook(IdleAnimation);
+	Astronaut_Walk2 = ConstructorStatics.RunningAnimationAsset.Get();
+	Astronaut_idle2 = ConstructorStatics.IdleAnimationAsset.Get();
+	GetSprite()->SetFlipbook(Astronaut_idle2);
 
 	// Use only Yaw from the controller and ignore the rest of the rotation.
 	bUseControllerRotationPitch = false;
@@ -98,7 +98,7 @@ void ACompSciAppCharacter::UpdateAnimation()
 	const float PlayerSpeed = PlayerVelocity.Size();
 
 	// Are we moving or standing still?
-	UPaperFlipbook* DesiredAnimation = (PlayerSpeed > 0.0f) ? RunningAnimation : IdleAnimation;
+	UPaperFlipbook* DesiredAnimation = (PlayerSpeed > 0.0f) ? Astronaut_Walk2 : Astronaut_idle2;
 	if( GetSprite()->GetFlipbook() != DesiredAnimation 	)
 	{
 		GetSprite()->SetFlipbook(DesiredAnimation);
