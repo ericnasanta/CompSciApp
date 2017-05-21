@@ -1,0 +1,570 @@
+﻿[2017.05.20-02.25.05:961][  0]Log file open, 05/19/17 20:25:05
+[2017.05.20-02.25.05:961][  0]LogInit:Display: Running engine for game: CompSciApp
+[2017.05.20-02.25.05:961][  0]LogInit:Display: RandInit(-1386139373) SRandInit(-1386139372).
+[2017.05.20-02.25.05:961][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2017.05.20-02.25.05:961][  0]LogStats: Stats thread started at 0.089954
+[2017.05.20-02.25.05:961][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2017.05.20-02.25.05:961][  0]LogInit: API Version: 2672455
+[2017.05.20-02.25.05:961][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2017.05.20-02.25.05:961][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2017.05.20-02.25.05:961][  0]LogInit: Build Configuration: Development
+[2017.05.20-02.25.05:961][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2017.05.20-02.25.05:961][  0]LogInit: Command line: -EpicPortal 
+[2017.05.20-02.25.05:961][  0]LogInit: Base directory: C:/Program Files/Epic Games/UE_4.9/Engine/Binaries/Win64/
+[2017.05.20-02.25.05:961][  0]LogInit: Rocket: 1
+[2017.05.20-02.25.05:971][  0]LogInit: Using libcurl 7.41.0
+[2017.05.20-02.25.05:971][  0]LogInit:  - built for x86_64-pc-win32
+[2017.05.20-02.25.05:971][  0]LogInit:  - supports SSL with WinSSL
+[2017.05.20-02.25.05:971][  0]LogInit:  - other features:
+[2017.05.20-02.25.05:971][  0]LogInit:      CURL_VERSION_SSL
+[2017.05.20-02.25.05:971][  0]LogInit:      CURL_VERSION_IPV6
+[2017.05.20-02.25.05:971][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2017.05.20-02.25.05:971][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2017.05.20-02.25.05:971][  0]LogInit:      CURL_VERSION_IDN
+[2017.05.20-02.25.05:971][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2017.05.20-02.25.05:971][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2017.05.20-02.25.05:971][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2017.05.20-02.25.05:971][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2017.05.20-02.25.05:971][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2017.05.20-02.25.05:982][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2017.05.20-02.25.05:991][  0]LogInit: Object subsystem initialized
+[2017.05.20-02.25.05:992][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.20-02.25.05:992][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.05.20-02.25.06:085][  0]LogInit: Computer: DEBBIELAPTOP
+[2017.05.20-02.25.06:085][  0]LogInit: User: Jacob
+[2017.05.20-02.25.06:085][  0]LogInit: CPU Page size=4096, Cores=2
+[2017.05.20-02.25.06:085][  0]LogInit: High frequency timer resolution =2.338340 MHz
+[2017.05.20-02.25.06:085][  0]LogMemory: Memory total: Physical=5.9GB (6GB approx)
+[2017.05.20-02.25.06:085][  0]LogMemory: Platform Memory Stats for Windows
+[2017.05.20-02.25.06:085][  0]LogMemory: Process Physical Memory: 54.34 MB used, 54.34 MB peak
+[2017.05.20-02.25.06:085][  0]LogMemory: Process Virtual Memory: 57.44 MB used, 57.44 MB peak
+[2017.05.20-02.25.06:086][  0]LogMemory: Physical Memory: 3622.43 MB used, 6048.76 MB total
+[2017.05.20-02.25.06:086][  0]LogMemory: Virtual Memory: 371.07 MB used, 134217728.00 MB total
+[2017.05.20-02.25.06:167][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.05.20-02.25.07:360][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics Family (Feature Level 11_0)
+[2017.05.20-02.25.07:360][  0]LogD3D11RHI: Adapter has 112MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
+[2017.05.20-02.25.07:361][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2017.05.20-02.25.07:361][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 3024MB of shared system memory, 0 output[s]
+[2017.05.20-02.25.07:361][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2017.05.20-02.25.07:367][  0]LogD3D11RHI: !Direct3DDevice
+[2017.05.20-02.25.07:367][  0]LogRHI: Texture pool is 795 MB (70% of 1136 MB)
+[2017.05.20-02.25.07:373][  0]LogD3D11RHI: Async texture creation enabled
+[2017.05.20-02.25.07:378][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (../../../../../../Users/Jacob/Documents/GitHub/CompSciApp/CompSciApp/Intermediate/Shaders/WorkingDirectory/13172/).
+[2017.05.20-02.25.07:378][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/Jacob/Documents/GitHub/CompSciApp/CompSciApp/Intermediate/Shaders/tmp/764D755441EC8C001701E28AB6AC62ED/'.
+[2017.05.20-02.25.07:378][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.05.20-02.25.09:151][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.05.20-02.25.09:164][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.05.20-02.25.09:175][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.05.20-02.25.09:187][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.05.20-02.25.09:197][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.05.20-02.25.09:204][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.05.20-02.25.09:211][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.05.20-02.25.09:218][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.05.20-02.25.09:225][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.05.20-02.25.09:231][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.05.20-02.25.09:239][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.05.20-02.25.09:245][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.05.20-02.25.09:246][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.05.20-02.25.09:268][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.05.20-02.25.09:274][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.05.20-02.25.09:280][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.05.20-02.25.09:287][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.05.20-02.25.09:287][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.05.20-02.25.09:409][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.05.20-02.25.09:480][  0]LogDerivedDataCache: Loaded boot cache 0.07s 42MB C:/Users/Jacob/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2017.05.20-02.25.09:480][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Jacob/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2017.05.20-02.25.09:480][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Jacob/Documents/GitHub/CompSciApp/CompSciApp/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.05.20-02.25.09:480][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.05.20-02.25.09:480][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Jacob/Documents/GitHub/CompSciApp/CompSciApp/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.05.20-02.25.09:480][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.05.20-02.25.09:706][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.05.20-02.25.09:717][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jacob/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.05.20-02.25.10:037][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.20-02.25.10:041][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2017.05.20-02.25.10:262][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2017.05.20-02.25.10:262][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.05.20-02.25.10:932][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.05.20-02.25.32:397][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.05.20-02.25.33:016][  0]LogAssetRegistry: FAssetRegistry took 0.0119 seconds to start up
+[2017.05.20-02.25.33:340][  0]SourceControl: Info Source control is disabled
+[2017.05.20-02.25.33:341][  0]SourceControl: Info Source control is disabled
+[2017.05.20-02.25.33:360][  0]SourceControl: Info Source control is disabled
+[2017.05.20-02.25.33:381][  0]SourceControl: Info Source control is disabled
+[2017.05.20-02.25.34:184][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.05.20-02.25.34:290][  0]LogObj: 28430 objects as part of root set at end of initial load.
+[2017.05.20-02.25.34:290][  0]LogUObjectAllocator: 6071520 out of 0 bytes used by permanent object pool.
+[2017.05.20-02.25.34:421][  0]LogEngine: Initializing Engine...
+[2017.05.20-02.25.34:428][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2017.05.20-02.25.34:430][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2017.05.20-02.25.34:652][  0]LogAIModule: Creating AISystem for world NewWorld
+[2017.05.20-02.25.34:656][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.20-02.25.35:038][  0]LogInit: FAudioDevice initialized.
+[2017.05.20-02.25.35:067][  0]LogDerivedDataCache: Saved boot cache 0.03s 42MB C:/Users/Jacob/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2017.05.20-02.25.35:074][  0]LogInit: Texture streaming: Enabled
+[2017.05.20-02.25.35:082][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2017.05.20-02.25.35:082][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2017.05.20-02.25.35:082][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 0c7004ae4fbf476c46248ea3aa897ba2|5c8a094fc4fb4ccf912a58e8b050ae6e|dd076934-77e4-46bc-8f3f-9384319b48ea
+[2017.05.20-02.25.35:082][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2017.05.20-02.25.35:100][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.20-02.25.35:101][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.20-02.25.35:146][  0]LogInit: Transaction tracking system initialized
+[2017.05.20-02.25.35:187][  0]BlueprintLog: New page: Editor Load
+[2017.05.20-02.25.35:386][  0]LocalizationService: Info Localization service is disabled
+[2017.05.20-02.25.35:576][  0]LogConsoleResponse:Display: 
+[2017.05.20-02.25.35:776][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2017.05.20-02.25.36:014][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jacob/Documents/GitHub/CompSciApp/CompSciApp/Content/' took 0.02s
+[2017.05.20-02.25.36:014][  0]SourceControl: Info Source control is disabled
+[2017.05.20-02.25.36:014][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Jacob/Documents/GitHub/CompSciApp/CompSciApp/Content/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.20-02.25.36:015][  0]LightingResults: New page: Lighting Build
+[2017.05.20-02.25.36:021][  0]MapCheck: New page: Map Check
+[2017.05.20-02.25.36:021][  0]LightingResults: New page: Lighting Build
+[2017.05.20-02.25.36:048][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A1CE03C400
+[2017.05.20-02.25.36:663][  0]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2017.05.20-02.25.36:667][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.20-02.25.36:668][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.20-02.25.36:759][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 90.926ms to complete.
+[2017.05.20-02.25.36:759][  0]LogFileHelpers: Loading map '2DSideScrollerExampleMap' took 0.745
+[2017.05.20-02.25.36:968][  0]LogCollectionManager: Loaded 0 collections in 0.004061 seconds
+[2017.05.20-02.25.37:014][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jacob/Documents/GitHub/CompSciApp/CompSciApp/Saved/Collections/' took 0.01s
+[2017.05.20-02.25.37:014][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jacob/Documents/GitHub/CompSciApp/CompSciApp/Content/Developers/Jacob/Collections/' took 0.01s
+[2017.05.20-02.25.37:014][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jacob/Documents/GitHub/CompSciApp/CompSciApp/Content/Collections/' took 0.01s
+[2017.05.20-02.25.37:014][  0]LogContentBrowser: Native class hierarchy populated in 0.0117 seconds. Added 1869 classes and 335 folders.
+[2017.05.20-02.25.37:021][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2017.05.20-02.25.37:035][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0023 seconds. Added 0 classes and 0 folders.
+[2017.05.20-02.25.37:892][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0025 seconds. Added 0 classes and 0 folders.
+[2017.05.20-02.25.37:900][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.05.20-02.25.37:908][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.05.20-02.25.37:930][  0]LogLoad: Full Startup: 33.76 seconds (BP compile: 0.07 seconds)
+[2017.05.20-02.25.38:044][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.05.20-02.25.38:236][  0]LogRenderer: Reallocating scene render targets to support 1212x436 (Frame:2).
+[2017.05.20-02.25.39:360][  3]LogAssetRegistry: Asset discovery search completed in 6.3557 seconds
+[2017.05.20-02.25.39:361][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
+[2017.05.20-02.25.39:361][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000051 seconds (updated 0 objects)
+[2017.05.20-02.25.45:010][157]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.05.20-02.25.46:238][157]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0026 seconds. Added 107 classes and 0 folders.
+[2017.05.20-02.28.52:519][597]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainMenu1', cached variable property's owner is '/Game/MainMenu/MainMenu1.SKEL_MainMenu1_C'
+[2017.05.20-02.28.56:468][804]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'MainMenu1', cached variable property's owner is '/Game/MainMenu/MainMenu1.SKEL_MainMenu1_C'
+[2017.05.20-02.29.07:676][342]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainMenu1', cached variable property's owner is '/Game/MainMenu/MainMenu1.SKEL_MainMenu1_C'
+[2017.05.20-02.29.10:977][508]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'MainMenu1', cached variable property's owner is '/Game/MainMenu/MainMenu1.SKEL_MainMenu1_C'
+[2017.05.20-02.29.20:486][985]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainMenu1', cached variable property's owner is '/Game/MainMenu/MainMenu1.SKEL_MainMenu1_C'
+[2017.05.20-02.29.22:571][ 89]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'MainMenu1', cached variable property's owner is '/Game/MainMenu/MainMenu1.SKEL_MainMenu1_C'
+[2017.05.20-02.29.34:097][640]BlueprintLog: New page: Compile MainMenu1
+[2017.05.20-02.29.34:320][640]BlueprintEditorCompileResults: Info [0270.15] Compile of MainMenu1 successful! [in 222 ms]
+[2017.05.20-02.29.37:194][759]BlueprintLog: New page: Compile MainMenu1
+[2017.05.20-02.29.37:431][759]BlueprintEditorCompileResults: Info [0273.26] Compile of MainMenu1 successful! [in 237 ms]
+[2017.05.20-02.30.03:587][ 88]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A1C1A847C0
+[2017.05.20-02.30.05:491][ 88]LogSavePackage: Save=28.727217ms
+[2017.05.20-02.30.05:491][ 88]LogSavePackage: Moving '../../../../../../Users/Jacob/Documents/GitHub/CompSciApp/CompSciApp/Saved/LevelOne6BE456744E8CE101AD72D7990E8CC863.tmp' to '../../../../../../Users/Jacob/Documents/GitHub/CompSciApp/CompSciApp/Content/2dSideScrollerCPP/Maps/LevelOne.umap'
+[2017.05.20-02.30.05:499][ 88]LogSavePackage: Total save time: 38.014147ms
+[2017.05.20-02.30.05:499][ 88]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Jacob/Documents/GitHub/CompSciApp/CompSciApp/Content/2dSideScrollerCPP/Maps/LevelOne.umap
+[2017.05.20-02.30.05:499][ 88]LogFileHelpers: Saving map 'LevelOne' took 0.264
+[2017.05.20-02.30.05:508][ 88]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMenu/MainMenu1" FILE="../../../../../../Users/Jacob/Documents/GitHub/CompSciApp/CompSciApp/Content/MainMenu/MainMenu1.uasset" SILENT=true
+[2017.05.20-02.30.05:593][ 88]LogSavePackage: Save=70.026604ms
+[2017.05.20-02.30.05:593][ 88]LogSavePackage: Moving '../../../../../../Users/Jacob/Documents/GitHub/CompSciApp/CompSciApp/Saved/MainMenu15CAF2CF2416E3CC4102A58A4A04ABFC9.tmp' to '../../../../../../Users/Jacob/Documents/GitHub/CompSciApp/CompSciApp/Content/MainMenu/MainMenu1.uasset'
+[2017.05.20-02.30.05:613][ 88]LogSavePackage: Total save time: 101.226941ms
+[2017.05.20-02.30.05:613][ 88]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Jacob/Documents/GitHub/CompSciApp/CompSciApp/Content/MainMenu/MainMenu1.uasset
+[2017.05.20-02.30.05:635][ 88]Cmd: MAP LOAD FILE="../../../../../../Users/Jacob/Documents/GitHub/CompSciApp/CompSciApp/Content/2dSideScrollerCPP/Maps/LevelOne.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.20-02.30.05:635][ 88]LightingResults: New page: Lighting Build
+[2017.05.20-02.30.05:740][ 88]LoadErrors: New page: Loading map: LevelOne.umap
+[2017.05.20-02.30.05:741][ 88]MapCheck: New page: Map Check
+[2017.05.20-02.30.05:741][ 88]LightingResults: New page: Lighting Build
+[2017.05.20-02.30.05:779][ 88]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A1BFE38400
+[2017.05.20-02.30.05:780][ 88]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A1C1A84D60
+[2017.05.20-02.30.05:787][ 88]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.20-02.30.05:788][ 88]LogAIModule: Creating AISystem for world LevelOne
+[2017.05.20-02.30.05:835][ 88]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.20-02.30.05:900][ 88]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 64.772ms to complete.
+[2017.05.20-02.30.05:901][ 88]LogFileHelpers: Loading map 'LevelOne' took 0.269
+[2017.05.20-02.30.16:164][685]Cmd: MAP LOAD FILE="../../../../../../Users/Jacob/Documents/GitHub/CompSciApp/CompSciApp/Content/2dSideScrollerCPP/Maps/LevelOne.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.20-02.30.16:164][685]LightingResults: New page: Lighting Build
+[2017.05.20-02.30.16:186][685]LoadErrors: New page: Loading map: LevelOne.umap
+[2017.05.20-02.30.16:186][685]MapCheck: New page: Map Check
+[2017.05.20-02.30.16:186][685]LightingResults: New page: Lighting Build
+[2017.05.20-02.30.16:229][685]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A18120DDA0
+[2017.05.20-02.30.16:230][685]LogAIModule: Creating AISystem for world LevelOne
+[2017.05.20-02.30.16:232][685]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.20-02.30.16:284][685]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.20-02.30.16:352][685]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 67.329ms to complete.
+[2017.05.20-02.30.16:353][685]LogFileHelpers: Loading map 'LevelOne' took 0.190
+[2017.05.20-02.31.27:513][564]BlueprintLog: New page: Compile LevelOne
+[2017.05.20-02.31.27:624][564]BlueprintEditorCompileResults: Info [0383.45] Compile of LevelOne successful! [in 110 ms]
+[2017.05.20-02.31.31:440][765]LogVSAccessor:Warning: Couldn't access Visual Studio
+[2017.05.20-02.31.31:446][765]Recompiling CompSciApp...
+[2017.05.20-02.31.31:446][765]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe CompSciApp -ModuleWithSuffix CompSciApp 3621 Win64 Development -editorrecompile -canskiplink "C:/Users/Jacob/Documents/GitHub/CompSciApp/CompSciApp/CompSciApp.uproject" -rocket  -rocket]
+[2017.05.20-02.31.31:450][765]Warning: Starting HotReload took  0.0s.
+[2017.05.20-02.31.33:530][886]CompilerResultsLog: New page: Compilation - May 19, 2017, 2:31:33 PM
+[2017.05.20-02.31.33:530][886]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.05.20-02.31.33:530][886]CompilerResultsLog: Info Target is up to date.
+[2017.05.20-02.31.33:530][886]LogMainFrame: MainFrame: Module compiling took 2.090 seconds
+[2017.05.20-02.31.36:223][ 44]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2dSideScrollerCPP/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/2dSideScrollerCPP/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/2dSideScrollerCPP/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/2dSideScrollerCPP/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.20-02.31.36:223][ 44]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.20-02.31.36:223][ 44]PIE: New page: PIE session: LevelOne (May 19, 2017, 2:31:36 PM)
+[2017.05.20-02.31.36:223][ 44]LogPlayLevel: Creating play world package: /Game/2dSideScrollerCPP/Maps/UEDPIE_0_LevelOne
+[2017.05.20-02.31.36:226][ 44]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002651s)
+[2017.05.20-02.31.36:227][ 44]LogAIModule: Creating AISystem for world LevelOne
+[2017.05.20-02.31.36:227][ 44]LogPlayLevel: PIE: World Init took: (0.001070s)
+[2017.05.20-02.31.36:228][ 44]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2dSideScrollerCPP/Maps/LevelOne.LevelOne to /Game/2dSideScrollerCPP/Maps/UEDPIE_0_LevelOne.LevelOne (0.004221s)
+[2017.05.20-02.31.36:277][ 44]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A1EC276840
+[2017.05.20-02.31.36:281][ 44]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.20-02.31.36:297][ 44]LogInit: FAudioDevice initialized.
+[2017.05.20-02.31.36:352][ 44]LogWorld: Game class is 'CompSciAppGameMode'
+[2017.05.20-02.31.36:354][ 44]LogWorld: Bringing World /Game/2dSideScrollerCPP/Maps/UEDPIE_0_LevelOne.LevelOne up for play (max tick rate 60) at 2017.05.19-20.31.36
+[2017.05.20-02.31.36:354][ 44]LogActor:Warning: GameSession /Game/2dSideScrollerCPP/Maps/UEDPIE_0_LevelOne.LevelOne:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.05.20-02.31.36:354][ 44]LogActor:Warning: GameNetworkManager /Game/2dSideScrollerCPP/Maps/UEDPIE_0_LevelOne.LevelOne:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.05.20-02.31.36:354][ 44]LogWorld: Bringing up level for play took: 0.001145
+[2017.05.20-02.31.36:365][ 44]PIE: Info Play in editor start time for /Game/2dSideScrollerCPP/Maps/UEDPIE_0_LevelOne 0.562
+[2017.05.20-02.31.36:365][ 44]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2dSideScrollerCPP/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/2dSideScrollerCPP/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/2dSideScrollerCPP/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/2dSideScrollerCPP/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.20-02.31.38:550][134]LogPackageName: SearchForPackageOnDisk took   0.100s, but failed to resolve None.umap.
+[2017.05.20-02.31.38:619][134]LogPackageName: SearchForPackageOnDisk took   0.069s, but failed to resolve None.umap.
+[2017.05.20-02.31.38:688][134]LogPackageName: SearchForPackageOnDisk took   0.068s, but failed to resolve None.umap.
+[2017.05.20-02.31.38:688][134]LogNet: Browse: /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap
+[2017.05.20-02.31.38:688][134]LogNet:Warning: Travel Failure: [InvalidURL]: Invalid URL: /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap
+[2017.05.20-02.31.38:688][134]LogNet:Warning: TravelFailure: InvalidURL, Reason for Failure: 'Invalid URL: /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap'. Shutting down PIE.
+[2017.05.20-02.31.38:688][134]PIE:Warning: Warning TravelFailure: InvalidURL, Reason for Failure: 'Invalid URL: /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap'. Shutting down PIE.
+[2017.05.20-02.31.38:688][134]LogNet:Warning: Travel Failure: [ClientTravelFailure]: Invalid URL: /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap
+[2017.05.20-02.31.38:688][134]LogNet:Warning: TravelFailure: ClientTravelFailure, Reason for Failure: 'Invalid URL: /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap'. Shutting down PIE.
+[2017.05.20-02.31.38:689][134]PIE:Warning: Warning TravelFailure: ClientTravelFailure, Reason for Failure: 'Invalid URL: /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap'. Shutting down PIE.
+[2017.05.20-02.31.38:689][134]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2dSideScrollerCPP/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/2dSideScrollerCPP/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/2dSideScrollerCPP/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/2dSideScrollerCPP/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.20-02.31.38:727][134]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2dSideScrollerCPP/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/2dSideScrollerCPP/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/2dSideScrollerCPP/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/2dSideScrollerCPP/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.20-02.31.38:778][134]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A1F65A32E0
+[2017.05.20-02.32.37:191][525]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2dSideScrollerCPP/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/2dSideScrollerCPP/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/2dSideScrollerCPP/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/2dSideScrollerCPP/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.20-02.32.37:191][525]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.20-02.32.37:191][525]PIE: New page: PIE session: LevelOne (May 19, 2017, 2:32:37 PM)
+[2017.05.20-02.32.37:191][525]LogPlayLevel: Creating play world package: /Game/2dSideScrollerCPP/Maps/UEDPIE_0_LevelOne
+[2017.05.20-02.32.37:195][525]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003940s)
+[2017.05.20-02.32.37:196][525]LogAIModule: Creating AISystem for world LevelOne
+[2017.05.20-02.32.37:197][525]LogPlayLevel: PIE: World Init took: (0.001682s)
+[2017.05.20-02.32.37:197][525]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2dSideScrollerCPP/Maps/LevelOne.LevelOne to /Game/2dSideScrollerCPP/Maps/UEDPIE_0_LevelOne.LevelOne (0.006030s)
+[2017.05.20-02.32.37:260][525]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.20-02.32.37:274][525]LogInit: FAudioDevice initialized.
+[2017.05.20-02.32.37:325][525]LogWorld: Game class is 'CompSciAppGameMode'
+[2017.05.20-02.32.37:328][525]LogWorld: Bringing World /Game/2dSideScrollerCPP/Maps/UEDPIE_0_LevelOne.LevelOne up for play (max tick rate 60) at 2017.05.19-20.32.37
+[2017.05.20-02.32.37:328][525]LogActor:Warning: GameSession /Game/2dSideScrollerCPP/Maps/UEDPIE_0_LevelOne.LevelOne:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.05.20-02.32.37:328][525]LogActor:Warning: GameNetworkManager /Game/2dSideScrollerCPP/Maps/UEDPIE_0_LevelOne.LevelOne:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.05.20-02.32.37:329][525]LogWorld: Bringing up level for play took: 0.002553
+[2017.05.20-02.32.37:335][525]PIE: Info Play in editor start time for /Game/2dSideScrollerCPP/Maps/UEDPIE_0_LevelOne -0.469
+[2017.05.20-02.32.37:335][525]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2dSideScrollerCPP/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/2dSideScrollerCPP/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/2dSideScrollerCPP/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/2dSideScrollerCPP/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.20-02.32.40:072][647]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2dSideScrollerCPP/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/2dSideScrollerCPP/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/2dSideScrollerCPP/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/2dSideScrollerCPP/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.20-02.32.40:112][647]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2dSideScrollerCPP/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/2dSideScrollerCPP/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/2dSideScrollerCPP/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/2dSideScrollerCPP/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.20-02.32.40:171][647]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A1830CD260
+[2017.05.20-02.32.41:966][750]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2dSideScrollerCPP/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/2dSideScrollerCPP/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/2dSideScrollerCPP/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/2dSideScrollerCPP/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.20-02.32.41:966][750]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.20-02.32.41:966][750]PIE: New page: PIE session: LevelOne (May 19, 2017, 2:32:41 PM)
+[2017.05.20-02.32.41:966][750]LogPlayLevel: Creating play world package: /Game/2dSideScrollerCPP/Maps/UEDPIE_0_LevelOne
+[2017.05.20-02.32.41:971][750]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004299s)
+[2017.05.20-02.32.41:971][750]LogAIModule: Creating AISystem for world LevelOne
+[2017.05.20-02.32.41:972][750]LogPlayLevel: PIE: World Init took: (0.001247s)
+[2017.05.20-02.32.41:972][750]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2dSideScrollerCPP/Maps/LevelOne.LevelOne to /Game/2dSideScrollerCPP/Maps/UEDPIE_0_LevelOne.LevelOne (0.005960s)
+[2017.05.20-02.32.42:039][750]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.20-02.32.42:057][750]LogInit: FAudioDevice initialized.
+[2017.05.20-02.32.42:112][750]LogWorld: Game class is 'CompSciAppGameMode'
+[2017.05.20-02.32.42:116][750]LogWorld: Bringing World /Game/2dSideScrollerCPP/Maps/UEDPIE_0_LevelOne.LevelOne up for play (max tick rate 60) at 2017.05.19-20.32.42
+[2017.05.20-02.32.42:116][750]LogActor:Warning: GameSession /Game/2dSideScrollerCPP/Maps/UEDPIE_0_LevelOne.LevelOne:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.05.20-02.32.42:117][750]LogActor:Warning: GameNetworkManager /Game/2dSideScrollerCPP/Maps/UEDPIE_0_LevelOne.LevelOne:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.05.20-02.32.42:118][750]LogWorld: Bringing up level for play took: 0.003933
+[2017.05.20-02.32.42:133][750]PIE: Info Play in editor start time for /Game/2dSideScrollerCPP/Maps/UEDPIE_0_LevelOne 0.33
+[2017.05.20-02.32.42:133][750]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2dSideScrollerCPP/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/2dSideScrollerCPP/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/2dSideScrollerCPP/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/2dSideScrollerCPP/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.20-02.32.43:202][792]LogPackageName: SearchForPackageOnDisk took   0.099s, but failed to resolve None.umap.
+[2017.05.20-02.32.43:283][792]LogPackageName: SearchForPackageOnDisk took   0.080s, but failed to resolve None.umap.
+[2017.05.20-02.32.43:283][792]LogNet: Browse: /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap
+[2017.05.20-02.32.43:283][792]LogNet:Warning: Travel Failure: [InvalidURL]: Invalid URL: /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap
+[2017.05.20-02.32.43:283][792]LogNet:Warning: TravelFailure: InvalidURL, Reason for Failure: 'Invalid URL: /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap'. Shutting down PIE.
+[2017.05.20-02.32.43:283][792]PIE:Warning: Warning TravelFailure: InvalidURL, Reason for Failure: 'Invalid URL: /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap'. Shutting down PIE.
+[2017.05.20-02.32.43:283][792]LogNet:Warning: Travel Failure: [ClientTravelFailure]: Invalid URL: /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap
+[2017.05.20-02.32.43:283][792]LogNet:Warning: TravelFailure: ClientTravelFailure, Reason for Failure: 'Invalid URL: /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap'. Shutting down PIE.
+[2017.05.20-02.32.43:283][792]PIE:Warning: Warning TravelFailure: ClientTravelFailure, Reason for Failure: 'Invalid URL: /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap'. Shutting down PIE.
+[2017.05.20-02.32.43:284][792]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2dSideScrollerCPP/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/2dSideScrollerCPP/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/2dSideScrollerCPP/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/2dSideScrollerCPP/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.20-02.32.43:360][792]LogPackageName: SearchForPackageOnDisk took   0.076s, but failed to resolve None.umap.
+[2017.05.20-02.32.43:396][792]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2dSideScrollerCPP/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/2dSideScrollerCPP/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/2dSideScrollerCPP/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/2dSideScrollerCPP/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.20-02.32.43:540][792]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A1F959A700
+[2017.05.20-02.33.59:912][678]Running C:/Program Files/Epic Games/UE_4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/Users/Jacob/Documents/GitHub/CompSciApp/CompSciApp/CompSciApp.uproject" -game -rocket -progress
+[2017.05.20-02.34.00:823][678]Discovering modules, targets and source code for game...
+[2017.05.20-02.34.55:495][570]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2dSideScrollerCPP/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/2dSideScrollerCPP/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/2dSideScrollerCPP/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/2dSideScrollerCPP/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.20-02.34.55:495][570]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.20-02.34.55:496][570]PIE: New page: PIE session: LevelOne (May 19, 2017, 2:34:55 PM)
+[2017.05.20-02.34.55:496][570]LogPlayLevel: Creating play world package: /Game/2dSideScrollerCPP/Maps/UEDPIE_0_LevelOne
+[2017.05.20-02.34.55:501][570]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004973s)
+[2017.05.20-02.34.55:502][570]LogAIModule: Creating AISystem for world LevelOne
+[2017.05.20-02.34.55:504][570]LogPlayLevel: PIE: World Init took: (0.002799s)
+[2017.05.20-02.34.55:505][570]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2dSideScrollerCPP/Maps/LevelOne.LevelOne to /Game/2dSideScrollerCPP/Maps/UEDPIE_0_LevelOne.LevelOne (0.008774s)
+[2017.05.20-02.34.55:561][570]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.20-02.34.55:574][570]LogInit: FAudioDevice initialized.
+[2017.05.20-02.34.55:625][570]LogWorld: Game class is 'CompSciAppGameMode'
+[2017.05.20-02.34.55:630][570]LogWorld: Bringing World /Game/2dSideScrollerCPP/Maps/UEDPIE_0_LevelOne.LevelOne up for play (max tick rate 60) at 2017.05.19-20.34.55
+[2017.05.20-02.34.55:630][570]LogActor:Warning: GameSession /Game/2dSideScrollerCPP/Maps/UEDPIE_0_LevelOne.LevelOne:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.05.20-02.34.55:631][570]LogActor:Warning: GameNetworkManager /Game/2dSideScrollerCPP/Maps/UEDPIE_0_LevelOne.LevelOne:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.05.20-02.34.55:631][570]LogWorld: Bringing up level for play took: 0.004526
+[2017.05.20-02.34.55:644][570]PIE: Info Play in editor start time for /Game/2dSideScrollerCPP/Maps/UEDPIE_0_LevelOne -0.159
+[2017.05.20-02.34.55:644][570]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2dSideScrollerCPP/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/2dSideScrollerCPP/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/2dSideScrollerCPP/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/2dSideScrollerCPP/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.20-02.34.57:633][651]LogPackageName: SearchForPackageOnDisk took   0.104s, but failed to resolve None.umap.
+[2017.05.20-02.34.57:711][651]LogPackageName: SearchForPackageOnDisk took   0.078s, but failed to resolve None.umap.
+[2017.05.20-02.34.57:795][651]LogPackageName: SearchForPackageOnDisk took   0.083s, but failed to resolve None.umap.
+[2017.05.20-02.34.57:795][651]LogNet: Browse: /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap
+[2017.05.20-02.34.57:795][651]LogNet:Warning: Travel Failure: [InvalidURL]: Invalid URL: /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap
+[2017.05.20-02.34.57:795][651]LogNet:Warning: TravelFailure: InvalidURL, Reason for Failure: 'Invalid URL: /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap'. Shutting down PIE.
+[2017.05.20-02.34.57:795][651]PIE:Warning: Warning TravelFailure: InvalidURL, Reason for Failure: 'Invalid URL: /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap'. Shutting down PIE.
+[2017.05.20-02.34.57:795][651]LogNet:Warning: Travel Failure: [ClientTravelFailure]: Invalid URL: /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap
+[2017.05.20-02.34.57:795][651]LogNet:Warning: TravelFailure: ClientTravelFailure, Reason for Failure: 'Invalid URL: /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap'. Shutting down PIE.
+[2017.05.20-02.34.57:795][651]PIE:Warning: Warning TravelFailure: ClientTravelFailure, Reason for Failure: 'Invalid URL: /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap'. Shutting down PIE.
+[2017.05.20-02.34.57:797][651]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2dSideScrollerCPP/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/2dSideScrollerCPP/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/2dSideScrollerCPP/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/2dSideScrollerCPP/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.20-02.34.57:832][651]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2dSideScrollerCPP/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/2dSideScrollerCPP/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/2dSideScrollerCPP/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/2dSideScrollerCPP/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.20-02.34.57:970][651]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A1F60E9440
+[2017.05.20-02.35.49:798][595]BlueprintLog: New page: Compile MainMenu1
+[2017.05.20-02.35.49:902][595]BlueprintEditorCompileResults: Info [0645.73] Compile of MainMenu1 successful! [in 103 ms]
+[2017.05.20-02.35.53:548][781]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2dSideScrollerCPP/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/2dSideScrollerCPP/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/2dSideScrollerCPP/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/2dSideScrollerCPP/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.20-02.35.53:548][781]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.20-02.35.53:548][781]PIE: New page: PIE session: LevelOne (May 19, 2017, 2:35:53 PM)
+[2017.05.20-02.35.53:549][781]LogPlayLevel: Creating play world package: /Game/2dSideScrollerCPP/Maps/UEDPIE_0_LevelOne
+[2017.05.20-02.35.53:554][781]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005576s)
+[2017.05.20-02.35.53:556][781]LogAIModule: Creating AISystem for world LevelOne
+[2017.05.20-02.35.53:557][781]LogPlayLevel: PIE: World Init took: (0.002287s)
+[2017.05.20-02.35.53:557][781]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2dSideScrollerCPP/Maps/LevelOne.LevelOne to /Game/2dSideScrollerCPP/Maps/UEDPIE_0_LevelOne.LevelOne (0.008464s)
+[2017.05.20-02.35.53:607][781]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A1F959AAC0
+[2017.05.20-02.35.53:607][781]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.20-02.35.53:622][781]LogInit: FAudioDevice initialized.
+[2017.05.20-02.35.53:660][781]LogWorld: Game class is 'CompSciAppGameMode'
+[2017.05.20-02.35.53:661][781]LogWorld: Bringing World /Game/2dSideScrollerCPP/Maps/UEDPIE_0_LevelOne.LevelOne up for play (max tick rate 60) at 2017.05.19-20.35.53
+[2017.05.20-02.35.53:661][781]LogActor:Warning: GameSession /Game/2dSideScrollerCPP/Maps/UEDPIE_0_LevelOne.LevelOne:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.05.20-02.35.53:662][781]LogActor:Warning: GameNetworkManager /Game/2dSideScrollerCPP/Maps/UEDPIE_0_LevelOne.LevelOne:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.05.20-02.35.53:662][781]LogWorld: Bringing up level for play took: 0.000975
+[2017.05.20-02.35.53:664][781]PIE: Info Play in editor start time for /Game/2dSideScrollerCPP/Maps/UEDPIE_0_LevelOne -0.139
+[2017.05.20-02.35.53:665][781]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2dSideScrollerCPP/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/2dSideScrollerCPP/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/2dSideScrollerCPP/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/2dSideScrollerCPP/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.20-02.35.56:763][917]LogPackageName: SearchForPackageOnDisk took   0.094s, but failed to resolve None.umap.
+[2017.05.20-02.35.56:841][917]LogPackageName: SearchForPackageOnDisk took   0.077s, but failed to resolve None.umap.
+[2017.05.20-02.35.56:841][917]LogNet: Browse: /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap
+[2017.05.20-02.35.56:841][917]LogNet:Warning: Travel Failure: [InvalidURL]: Invalid URL: /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap
+[2017.05.20-02.35.56:841][917]LogNet:Warning: TravelFailure: InvalidURL, Reason for Failure: 'Invalid URL: /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap'. Shutting down PIE.
+[2017.05.20-02.35.56:841][917]PIE:Warning: Warning TravelFailure: InvalidURL, Reason for Failure: 'Invalid URL: /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap'. Shutting down PIE.
+[2017.05.20-02.35.56:841][917]LogNet:Warning: Travel Failure: [ClientTravelFailure]: Invalid URL: /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap
+[2017.05.20-02.35.56:841][917]LogNet:Warning: TravelFailure: ClientTravelFailure, Reason for Failure: 'Invalid URL: /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap'. Shutting down PIE.
+[2017.05.20-02.35.56:841][917]PIE:Warning: Warning TravelFailure: ClientTravelFailure, Reason for Failure: 'Invalid URL: /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap'. Shutting down PIE.
+[2017.05.20-02.35.56:842][917]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2dSideScrollerCPP/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/2dSideScrollerCPP/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/2dSideScrollerCPP/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/2dSideScrollerCPP/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.20-02.35.56:878][917]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2dSideScrollerCPP/Maps/LevelOne.LevelOne:PersistentLevel' has LevelScriptBlueprint '/Game/2dSideScrollerCPP/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne' with GeneratedClass '/Game/2dSideScrollerCPP/Maps/LevelOne.LevelOne_C' with ClassGeneratedBy '/Game/2dSideScrollerCPP/Maps/LevelOne.LevelOne:PersistentLevel.LevelOne'
+[2017.05.20-02.35.56:999][917]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A18273E700
+[2017.05.20-02.36.50:097][874]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A1F9599120
+[2017.05.20-02.36.51:803][874]LogSavePackage: Save=69.513412ms
+[2017.05.20-02.36.51:803][874]LogSavePackage: Moving '../../../../../../Users/Jacob/Documents/GitHub/CompSciApp/CompSciApp/Saved/LevelOneEF3A5A55476CBBF6A87168B8300BFA18.tmp' to '../../../../../../Users/Jacob/Documents/GitHub/CompSciApp/CompSciApp/Content/2dSideScrollerCPP/Maps/LevelOne.umap'
+[2017.05.20-02.36.51:810][874]LogSavePackage: Total save time: 80.847524ms
+[2017.05.20-02.36.51:810][874]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Jacob/Documents/GitHub/CompSciApp/CompSciApp/Content/2dSideScrollerCPP/Maps/LevelOne.umap
+[2017.05.20-02.36.51:976][874]LogFileHelpers: Saving map 'LevelOne' took 0.460
+[2017.05.20-02.36.51:991][874]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMenu/MainMenu1" FILE="../../../../../../Users/Jacob/Documents/GitHub/CompSciApp/CompSciApp/Content/MainMenu/MainMenu1.uasset" SILENT=true
+[2017.05.20-02.36.52:027][874]LogSavePackage: Save=21.474209ms
+[2017.05.20-02.36.52:027][874]LogSavePackage: Moving '../../../../../../Users/Jacob/Documents/GitHub/CompSciApp/CompSciApp/Saved/MainMenu1E5EE3E8146AEC3CD79176BA131593C74.tmp' to '../../../../../../Users/Jacob/Documents/GitHub/CompSciApp/CompSciApp/Content/MainMenu/MainMenu1.uasset'
+[2017.05.20-02.36.52:032][874]LogSavePackage: Total save time: 36.888991ms
+[2017.05.20-02.36.52:032][874]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Jacob/Documents/GitHub/CompSciApp/CompSciApp/Content/MainMenu/MainMenu1.uasset
+[2017.05.20-02.36.52:172][874]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.20-02.36.52:172][874]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.20-02.36.52:544][875]Cmd: QUIT_EDITOR
+[2017.05.20-02.36.53:731][875]LogExit: Preparing to exit.
+[2017.05.20-02.36.55:076][875]LogExit: Editor shut down
+[2017.05.20-02.36.55:077][875]LogExit: Transaction tracking system shut down
+[2017.05.20-02.36.55:081][875]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A1C1B134C0
+[2017.05.20-02.36.55:082][875]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A1C24316C0
+[2017.05.20-02.36.55:098][875]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A1FB0822A0
+[2017.05.20-02.36.55:101][875]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A1EC275260
+[2017.05.20-02.36.55:103][875]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A1F959A700
+[2017.05.20-02.36.55:104][875]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A1C1C16840
+[2017.05.20-02.36.55:570][875]LogExit: Object subsystem successfully closed.
+[2017.05.20-02.36.55:593][875]LogD3D11RHI: Shutdown
+[2017.05.20-02.36.55:593][875]LogD3D11RHI: CleanupD3DDevice
+[2017.05.20-02.36.55:760][875]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.05.20-02.36.55:794][875]LogModuleManager: Shutting down and abandoning module SequencerWidgets (199)
+[2017.05.20-02.36.55:794][875]LogModuleManager: Shutting down and abandoning module BlueprintGraph (198)
+[2017.05.20-02.36.55:794][875]LogModuleManager: Shutting down and abandoning module CrashTracker (197)
+[2017.05.20-02.36.55:794][875]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
+[2017.05.20-02.36.55:794][875]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
+[2017.05.20-02.36.55:794][875]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
+[2017.05.20-02.36.55:795][875]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
+[2017.05.20-02.36.55:795][875]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
+[2017.05.20-02.36.55:795][875]LogModuleManager: Shutting down and abandoning module StatsViewer (191)
+[2017.05.20-02.36.55:795][875]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2017.05.20-02.36.55:795][875]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2017.05.20-02.36.55:796][875]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2017.05.20-02.36.55:796][875]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2017.05.20-02.36.55:796][875]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2017.05.20-02.36.55:796][875]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2017.05.20-02.36.55:796][875]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2017.05.20-02.36.55:796][875]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2017.05.20-02.36.55:796][875]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2017.05.20-02.36.55:796][875]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2017.05.20-02.36.55:796][875]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2017.05.20-02.36.55:796][875]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2017.05.20-02.36.55:796][875]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2017.05.20-02.36.55:796][875]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2017.05.20-02.36.55:796][875]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2017.05.20-02.36.55:796][875]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2017.05.20-02.36.55:796][875]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2017.05.20-02.36.55:796][875]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2017.05.20-02.36.56:675][875]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2017.05.20-02.36.56:675][875]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2017.05.20-02.36.56:675][875]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2017.05.20-02.36.56:675][875]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2017.05.20-02.36.56:675][875]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2017.05.20-02.36.56:675][875]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2017.05.20-02.36.56:676][875]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2017.05.20-02.36.56:676][875]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2017.05.20-02.36.56:676][875]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2017.05.20-02.36.56:676][875]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2017.05.20-02.36.56:676][875]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2017.05.20-02.36.56:676][875]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2017.05.20-02.36.56:676][875]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2017.05.20-02.36.56:676][875]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2017.05.20-02.36.56:676][875]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2017.05.20-02.36.56:676][875]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2017.05.20-02.36.56:676][875]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2017.05.20-02.36.56:676][875]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2017.05.20-02.36.56:676][875]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2017.05.20-02.36.56:677][875]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2017.05.20-02.36.56:677][875]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2017.05.20-02.36.56:677][875]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2017.05.20-02.36.56:677][875]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2017.05.20-02.36.56:677][875]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2017.05.20-02.36.56:677][875]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2017.05.20-02.36.56:677][875]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2017.05.20-02.36.56:678][875]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2017.05.20-02.36.56:678][875]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2017.05.20-02.36.56:678][875]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2017.05.20-02.36.56:678][875]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2017.05.20-02.36.56:678][875]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2017.05.20-02.36.56:678][875]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2017.05.20-02.36.56:678][875]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2017.05.20-02.36.56:678][875]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2017.05.20-02.36.56:678][875]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2017.05.20-02.36.56:679][875]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2017.05.20-02.36.56:684][875]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2017.05.20-02.36.56:684][875]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2017.05.20-02.36.56:684][875]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2017.05.20-02.36.56:684][875]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2017.05.20-02.36.56:684][875]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2017.05.20-02.36.56:684][875]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2017.05.20-02.36.56:684][875]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2017.05.20-02.36.56:685][875]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2017.05.20-02.36.56:685][875]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2017.05.20-02.36.56:685][875]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2017.05.20-02.36.56:685][875]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2017.05.20-02.36.56:685][875]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2017.05.20-02.36.56:685][875]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2017.05.20-02.36.56:685][875]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2017.05.20-02.36.56:759][875]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2017.05.20-02.36.56:759][875]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2017.05.20-02.36.56:759][875]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2017.05.20-02.36.56:759][875]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2017.05.20-02.36.56:759][875]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2017.05.20-02.36.56:759][875]LogModuleManager: Shutting down and abandoning module OculusRift (117)
+[2017.05.20-02.36.56:759][875]LogModuleManager: Shutting down and abandoning module OculusLibrary (116)
+[2017.05.20-02.36.56:760][875]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2017.05.20-02.36.56:843][875]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2017.05.20-02.36.56:843][875]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2017.05.20-02.36.56:843][875]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2017.05.20-02.36.56:843][875]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2017.05.20-02.36.56:843][875]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2017.05.20-02.36.56:843][875]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2017.05.20-02.36.56:843][875]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2017.05.20-02.36.56:843][875]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2017.05.20-02.36.56:843][875]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2017.05.20-02.36.56:843][875]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2017.05.20-02.36.56:843][875]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2017.05.20-02.36.56:843][875]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2017.05.20-02.36.56:843][875]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2017.05.20-02.36.56:843][875]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2017.05.20-02.36.56:843][875]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2017.05.20-02.36.56:843][875]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2017.05.20-02.36.56:844][875]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2017.05.20-02.36.56:844][875]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2017.05.20-02.36.56:844][875]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2017.05.20-02.36.56:844][875]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2017.05.20-02.36.56:844][875]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2017.05.20-02.36.56:844][875]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2017.05.20-02.36.56:844][875]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2017.05.20-02.36.56:844][875]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2017.05.20-02.36.56:846][875]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2017.05.20-02.36.56:847][875]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2017.05.20-02.36.56:906][875]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2017.05.20-02.36.56:907][875]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2017.05.20-02.36.56:907][875]LogModuleManager: Shutting down and abandoning module CompSciApp (86)
+[2017.05.20-02.36.56:907][875]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2017.05.20-02.36.57:009][875]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2017.05.20-02.36.57:009][875]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2017.05.20-02.36.57:009][875]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2017.05.20-02.36.57:016][875]LogModuleManager: Shutting down and abandoning module Media (81)
+[2017.05.20-02.36.57:016][875]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2017.05.20-02.36.57:016][875]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2017.05.20-02.36.57:016][875]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2017.05.20-02.36.57:016][875]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2017.05.20-02.36.57:016][875]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2017.05.20-02.36.57:017][875]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2017.05.20-02.36.57:017][875]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2017.05.20-02.36.57:017][875]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2017.05.20-02.36.57:017][875]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2017.05.20-02.36.57:017][875]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2017.05.20-02.36.57:017][875]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2017.05.20-02.36.57:017][875]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2017.05.20-02.36.57:017][875]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2017.05.20-02.36.57:017][875]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2017.05.20-02.36.57:017][875]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2017.05.20-02.36.57:023][875]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2017.05.20-02.36.57:023][875]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2017.05.20-02.36.57:023][875]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2017.05.20-02.36.57:023][875]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2017.05.20-02.36.57:023][875]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2017.05.20-02.36.57:023][875]LogModuleManager: Shutting down and abandoning module Core (59)
+[2017.05.20-02.36.57:023][875]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2017.05.20-02.36.57:023][875]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2017.05.20-02.36.57:023][875]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2017.05.20-02.36.57:023][875]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2017.05.20-02.36.57:023][875]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2017.05.20-02.36.57:101][875]LogDerivedDataCache: Shutdown
+[2017.05.20-02.36.57:101][875]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2017.05.20-02.36.57:101][875]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2017.05.20-02.36.57:101][875]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2017.05.20-02.36.57:101][875]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2017.05.20-02.36.57:101][875]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2017.05.20-02.36.57:101][875]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2017.05.20-02.36.57:101][875]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2017.05.20-02.36.57:101][875]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2017.05.20-02.36.57:101][875]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2017.05.20-02.36.57:101][875]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2017.05.20-02.36.57:101][875]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2017.05.20-02.36.57:101][875]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2017.05.20-02.36.57:101][875]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2017.05.20-02.36.57:101][875]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2017.05.20-02.36.57:101][875]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2017.05.20-02.36.57:101][875]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2017.05.20-02.36.57:101][875]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2017.05.20-02.36.57:101][875]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2017.05.20-02.36.57:101][875]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2017.05.20-02.36.57:101][875]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2017.05.20-02.36.57:101][875]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2017.05.20-02.36.57:101][875]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2017.05.20-02.36.57:101][875]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2017.05.20-02.36.57:101][875]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2017.05.20-02.36.57:101][875]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2017.05.20-02.36.57:101][875]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2017.05.20-02.36.57:101][875]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2017.05.20-02.36.57:101][875]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2017.05.20-02.36.57:101][875]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2017.05.20-02.36.57:101][875]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2017.05.20-02.36.57:101][875]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2017.05.20-02.36.57:101][875]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2017.05.20-02.36.57:101][875]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2017.05.20-02.36.57:101][875]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2017.05.20-02.36.57:101][875]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2017.05.20-02.36.57:101][875]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2017.05.20-02.36.58:103][875]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2017.05.20-02.36.58:103][875]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2017.05.20-02.36.58:103][875]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2017.05.20-02.36.58:103][875]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2017.05.20-02.36.58:103][875]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2017.05.20-02.36.58:103][875]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2017.05.20-02.36.58:112][875]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2017.05.20-02.36.58:112][875]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2017.05.20-02.36.58:112][875]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2017.05.20-02.36.58:112][875]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2017.05.20-02.36.58:112][875]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2017.05.20-02.36.58:112][875]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2017.05.20-02.36.58:112][875]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2017.05.20-02.36.58:112][875]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2017.05.20-02.36.58:112][875]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2017.05.20-02.36.58:112][875]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2017.05.20-02.36.58:113][875]LogExit: Exiting.
+[2017.05.20-02.36.58:118][875]Log file closed, 05/19/17 20:36:58
