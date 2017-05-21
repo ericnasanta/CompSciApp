@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+<RuntimeProperties>
+<Version>1</Version>
+<ProcessId>7228</ProcessId>
+<IsInternalBuild>0</IsInternalBuild>
+<IsPerforceBuild>0</IsPerforceBuild>
+<IsSourceDistribution>0</IsSourceDistribution>
+<GameName>CompSciApp</GameName>
+<ExecutableName>UE4Editor</ExecutableName>
+<BuildConfiguration>Development</BuildConfiguration>
+<PlatformName>Windows</PlatformName>
+<PlatformNameIni>Windows</PlatformNameIni>
+<EngineMode>Editor</EngineMode>
+<EngineVersion>4.9.2-2707645+++depot+UE4-Releases+4.9</EngineVersion>
+<CommandLine>-EpicPortal </CommandLine>
+<LanguageLCID>1033</LanguageLCID>
+<DefaultLocale>en_US</DefaultLocale>
+<IsUE4Release>1</IsUE4Release>
+<UserName></UserName>
+<BaseDir>C:/Program Files/Epic Games/UE_4.9/Engine/Binaries/Win64/</BaseDir>
+<RootDir>C:/Program Files/Epic Games/UE_4.9/</RootDir>
+<MachineId>CD6BFA6044883B0D06DE64BE863C488D</MachineId>
+<EpicAccountId>81db3aebfd8c43b0b13c2e2363feaee1</EpicAccountId>
+<CallStack></CallStack>
+<SourceContext></SourceContext>
+<UserDescription></UserDescription>
+<ErrorMessage>Assertion failed: false [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.9\Engine\Source\Editor\UnrealEd\Private\EditorViewportClient.cpp] [Line: 807] 
+
+</ErrorMessage>
+<MiscNumberOfCores>2</MiscNumberOfCores>
+<MiscNumberOfCoresIncludingHyperthreads>4</MiscNumberOfCoresIncludingHyperthreads>
+<MiscIs64bitOperatingSystem>1</MiscIs64bitOperatingSystem>
+<MiscCPUVendor>GenuineIntel</MiscCPUVendor>
+<MiscCPUBrand>Intel(R) Core(TM) i7-6500U CPU @ 2.50GHz</MiscCPUBrand>
+<MiscPrimaryGPUBrand>Intel(R) HD Graphics 520</MiscPrimaryGPUBrand>
+<MiscOSVersionMajor>Windows 10</MiscOSVersionMajor>
+<MiscOSVersionMinor></MiscOSVersionMinor>
+<CrashDumpMode>0</CrashDumpMode>
+<MemoryStatsTotalPhysical>8447406080</MemoryStatsTotalPhysical>
+<MemoryStatsTotalVirtual>140737488224256</MemoryStatsTotalVirtual>
+<MemoryStatsPageSize>4096</MemoryStatsPageSize>
+<MemoryStatsTotalPhysicalGB>8</MemoryStatsTotalPhysicalGB>
+<MemoryStatsAvailablePhysical>3936555008</MemoryStatsAvailablePhysical>
+<MemoryStatsAvailableVirtual>140735612383232</MemoryStatsAvailableVirtual>
+<MemoryStatsUsedPhysical>755171328</MemoryStatsUsedPhysical>
+<MemoryStatsPeakUsedPhysical>761053184</MemoryStatsPeakUsedPhysical>
+<MemoryStatsUsedVirtual>1070301184</MemoryStatsUsedVirtual>
+<MemoryStatsPeakUsedVirtual>1327284224</MemoryStatsPeakUsedVirtual>
+<MemoryStatsbIsOOM>0</MemoryStatsbIsOOM>
+<MemoryStatsOOMAllocationSize>0</MemoryStatsOOMAllocationSize>
+<MemoryStatsOOMAllocationAlignment>0</MemoryStatsOOMAllocationAlignment>
+</RuntimeProperties>
+<PlatformProperties>
+<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+</PlatformProperties>
+</FGenericCrashContext>

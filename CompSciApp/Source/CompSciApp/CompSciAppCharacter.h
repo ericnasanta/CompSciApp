@@ -32,11 +32,11 @@ class ACompSciAppCharacter : public APaperCharacter
 protected:
 	// The animation to play while running around
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=Animations)
-	class UPaperFlipbook* RunningAnimation;
+	class UPaperFlipbook* Astronaut_Walk2;
 
 	// The animation to play while idle (standing still)
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Animations)
-	class UPaperFlipbook* IdleAnimation;
+	class UPaperFlipbook* Astronaut_idle2;
 
 	/** Called to choose the correct animation to play based on the character's movement state */
 	void UpdateAnimation();
